@@ -5,4 +5,44 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid black;
+
+    img {
+        width: 24px;
+    }
+}
+
+/* Main */
+
+main {
+    padding: 1rem;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    gap: 1rem;
+
+    img {
+        flex: 1;
+        border-radius: 10px 0 0 10px;
+    }
+
+    img + div {
+        flex: 1;
+    }
 }
