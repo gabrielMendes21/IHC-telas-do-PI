@@ -20,6 +20,7 @@ header {
     a{
         img {
             width: 34px;
+            padding: 2px;
             border-radius: 25px;
             border: 1px solid black;
         }
