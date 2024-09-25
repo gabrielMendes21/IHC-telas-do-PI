@@ -8,7 +8,7 @@
     font-family: Arial, sans-serif;
 }
 
-* Header */
+/* Header */
 header {
     padding: 1rem;
     display: flex;
@@ -39,7 +39,7 @@ header {
     }
 }
 
-.body {
+.corpo-login {
     height: 100vh;
     margin: 0;
     display: flex;
@@ -78,6 +78,11 @@ input[type="text"], input[type="password"] {
     border: 1px solid #ccc;
     border-radius: 4px;
 } 
+
+input[type="bu"]{
+
+}
+
 
 .buttonForm{
     background-color: rgb(49, 48, 48);

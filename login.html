@@ -6,16 +6,13 @@
     <title>SGTC - Login</title>
     <link rel="stylesheet" href="src/assets/css/style.css">
 </head>
-<body>
-    <header>
-        <nav></nav>
-    </header>
+<body class="corpo-login">
     <div class="container">  
         <div class="logo">
             <img src="src/assets/img/logo.jpg" alt="Logo do sistema" width="200px">
             <h1>SGTC</h1>
         </div>
-        <form>
+        <form action="turma.html">
             <div>
                 <label for="login">Login</label><br>
                 <input type="text" id="login" name="login" placeholder="login@gmail.com" ><br>
@@ -24,7 +21,9 @@
                 <label for="senha">Senha</label><br>
                 <input type="password" id="senha" name="senha" placeholder="*********">
             </div>
-            <input type="submit" class="buttonForm" value="Enviar">
+            <a href="turma.html">
+                <input type="submit" class="buttonForm" value="Enviar">
+            </a>
         </form>
     </div>
 </body>
